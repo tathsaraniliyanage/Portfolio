@@ -1,0 +1,123 @@
+
+#home {
+    background-color: #363543;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+#home > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#home > div > div > h1 {
+    font-size: 40px;
+}
+#home > div > div > h1:nth-child(1) {
+    font-weight: 300;
+}
+#home > div > div > h1:nth-child(2) {
+    font-weight: 900;
+    font-size: 70px;
+}
+
+#home > div > div:nth-child(3) > h1:nth-child(1) {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#home > div > div:nth-child(3) > span:nth-child(3) {
+    color: rgb(56, 186, 222);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#home > div > div:nth-child(3) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.img2{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+    object-fit: cover;
+}
+.box2{
+    background-color: rgb(138, 139, 143);
+    width: 500px;
+    height: 100px;
+    position: relative;
+    margin-left: 400px;
+    border-radius: 12px;
+    gap: 40px;
+    margin-top: 20px;
+}
+.box3{
+    background-color: #363543;
+    width: 120px;
+    height: 30px;
+    border-radius: 12px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 8px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 2px 2px;
+    /* animation: square 3s linear infinite; */
+}
+.box3 > h6{
+    color: white;
+    font-size: 14px;
+}
+.box3:hover{
+    /* box-shadow:2px 3px 3px 5px rgb(69, 212, 255); */
+    color: white;
+
+}
+@keyframes square{
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{
+
+    }
+}
+h8{
+
+    font-size: 40px;
+}
+.body1{
+    background-color:  #3e3c4e;
+
+
+}
+footer{
+    background-color:  #363543;
+    padding-top: 40px;
+    padding-left: 60px;
+}
+h6{
+    /* color: gold; */
+    color: rgb(0, 251, 255);
+    font-size: 20px;
+}
+
+.button-download{
+    border-color: rgba(0, 0, 0, 0);
+    background-color: var(--primary-color);
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+}

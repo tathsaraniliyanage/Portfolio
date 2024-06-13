@@ -1,0 +1,17 @@
+/* Your custom styles */
+.footer {
+    padding: 20px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.social-icons a {
+    color: yellow;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: white;
+}
