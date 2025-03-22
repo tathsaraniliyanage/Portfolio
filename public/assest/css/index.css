@@ -17,6 +17,9 @@ root {
     --secondary-color-light: #403F4F; /* Orange */
 }
 @media screen and (min-width: 2560px) {
+    header > button{
+        display: none!important;
+    }
     #service-home{
         visibility: visible;
         display: block !important;
@@ -27,13 +30,28 @@ root {
     #box{
         width: fit-content !important;
     }
+    .header-bar{
+        display: block;
+    }
+    header >h1{
+        display: none!important;
+    }
+
 }
 
 @media screen and (min-width: 320px) {
+    header > button{
+        display: block!important;
+    }
+    header >h1{
+        display: block!important;
+    }
+
     #service-home{
         visibility: hidden !important;
         display: none !important;
     }
+
     #footer-logo{
         width: fit-content !important;
     }
@@ -41,9 +59,11 @@ root {
     #home > div > div > h1 {
         font-size: 30px !important;
     }
+
     #home > div > div > h1:nth-child(1) {
         font-weight: 300;
     }
+
     #home > div > div > h1:nth-child(2) {
         font-weight: 900;
         font-size: 70px;
@@ -57,19 +77,62 @@ root {
     .img1{
         width: 300px !important;
     }
+
     #box{
         width: 280px !important;
         gap: 10px!important;
         justify-content: center;
     }
+
     #box>div{
         width: 70px !important;
     }
+
     #box h6{
        font-size: 13px !important;
     }
-}
 
+    .service-box{
+        width: 250px !important;
+    }
+
+    #home{
+        padding: 0px!important;
+    }
+
+    .header-bar{
+        display: none;
+    }
+
+    header{
+        height: 71px;
+        padding-left: 0px !important;
+    }
+
+    #home{
+        padding-top: 30px!important;
+    }
+
+    #footer-content{
+        justify-content: start !important;
+    }
+
+    #footer-details-section p{
+        font-size: 12px;
+    }
+
+    #footer-content-social-media{
+        flex-direction: row !important;
+    }
+
+    #footer-content-social-media i{
+        font-size: 12px;
+    }
+
+    #project>div>h1:nth-child(1),#project>div>div:nth-child(2){
+        padding: 10px;
+    }
+}
 
 @media screen and (min-width: 768px) {
     #service-home{
@@ -79,12 +142,33 @@ root {
     #footer-logo{
         width: 100%;
     }
+
+    .header-bar{
+        display: block;
+    }
+    header > button{
+        display: none!important;
+    }
+    header{
+        display: block!important;
+    }
+    #burger-list{
+        display: none!important;
+    }
 }
+
 @media screen and (min-width: 1024px) {
+    header >h1{
+        display: none!important;
+    }
+    header{
+        display: block!important;
+    }
     #service-home{
         visibility: visible !important;
         display: block !important;
     }
+
     #footer-logo{
         width: fit-content !important;
     }
@@ -92,9 +176,11 @@ root {
     #home > div > div > h1 {
         font-size: 30px !important;
     }
+
     #home > div > div > h1:nth-child(1) {
         font-weight: 300;
     }
+
     #home > div > div > h1:nth-child(2) {
         font-weight: 900;
         font-size: 70px;
@@ -108,14 +194,39 @@ root {
    .img1{
        width: 410px !important;
    }
+
     #box{
         width: fit-content !important;
     }
+
     #box>div{
         width: 100px !important;
     }
+
     #box h6{
         font-size: 20px !important;
+    }
+
+    .header-bar{
+        display: block;
+    }
+
+    #footer-content{
+        justify-content: center !important;
+    }
+
+    #footer-content >div:nth-child(1),#footer-content >div:nth-child(2){
+        margin-right: 200px;
+    }
+
+    #footer-details-section p{
+        font-size: 16px;
+    }
+    #footer-content-social-media{
+        flex-direction: column !important;
+    }
+    #footer-content-social-media i{
+        font-size: 16px;
     }
 }
 
@@ -165,3 +276,16 @@ root {
       display: flex;
       justify-content: center;
   }
+
+  /* .secpro{
+    display: flex;
+    justify-content: center;
+  } */
+
+main{
+    margin-top: 70px;
+}
+
+#burger-list{
+    transition: all 4s ease-in 2s;
+}
