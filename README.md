@@ -12,12 +12,13 @@ Here're some of the project's best features:
 
 *   **Responsive Design** : Optimized for various devices and screen sizes.
 *   **Interactive Elements** : Engaging animations and transitions.
-*   **Smooth Animations** : Elegant enter/exit transitions for better UX
+*   **Smooth Animations** : Elegant enter/exit transitions for better UX.
 *   **Project Showcase** : Detailed descriptions and images of my projects.
 *   **Contact Form** : Easy way for visitors to get in touch with me.
+*   **CV Download Button** : Easy to download cv.
 
   
-## Built with 💻
+## Built with 🚀
 
 Technologies used in the project:
 
@@ -26,6 +27,18 @@ Technologies used in the project:
 *   JavaScript
 
 
+## Project Setup 💻
+
+### 1️⃣ Clone the Repository 
+  ```
+  git clone https://https://github.com/tathsaraniliyanage/Portpolio
+  ```
+
+### 2️⃣ Navigate to the directory
+       
+      
+      cd Portfolio
+      
 
 ## License 📚
 
