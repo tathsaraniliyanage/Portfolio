@@ -275,13 +275,21 @@
                         </div>
                     </div>
                 </div>
-                <div class="d-flex flex-wrap justify-content-start align-items-center gap-3">
+                <!-- <div class="d-flex flex-wrap justify-content-start align-items-center gap-3">
                     <button class="border-0 rounded-circle" id="show-project-btn" onclick="showProject()"
                         style="width: 44px;height: 44px;background-color:var(--primary-color)">
                         <i class="fa-solid fa-chevron-down" id="project-btn-icon"
                             style="font-size: 25px;font-weight: bold"></i>
                     </button>
                     <span id="project-show-text">Show project</span>
+                </div> -->
+                <div class="d-flex flex-wrap justify-content-start align-items-center gap-3">
+                    <button class="border-0 rounded-circle" id="show-project-btn" onclick="toggleProjects()"
+                        style="width: 44px;height: 44px;background-color:var(--primary-color)">
+                        <i class="fa-solid fa-chevron-up" id="project-btn-icon"
+                            style="font-size: 25px;font-weight: bold"></i>
+                    </button>
+                    <span id="project-show-text">Hide projects</span>
                 </div>
                 <div class="flex-wrap justify-content-start" id="projects" style="display: none">
                     <div class="ag-courses_item" id="project1">
