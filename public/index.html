@@ -1,484 +1,708 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <link href="assest/css/index.css" rel="stylesheet">
     <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-          referrerpolicy="no-referrer" rel="stylesheet"/>
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        referrerpolicy="no-referrer" rel="stylesheet" />
     <link href="assest/css/footer.css" rel="stylesheet"> <!-- Your custom CSS file -->
     <link href="assest/bootstrap-5.3.3-dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Prabodha Thathsarani</title>
-    <link href="Add a heading-modified.ico" rel="icon" type="image/x-icon" >
+    <link href="Add a heading-modified.ico" rel="icon" type="image/x-icon">
     <link href="assest/css/header.css" rel="stylesheet">
     <link href="assest/css/home.css" rel="stylesheet">
     <link href="assest/css/project.css" rel="stylesheet">
 
 </head>
+
 <body>
-<div id="burger-list" class="shadow-lg" style="width: 100%;display: none;flex-direction: column;height: 160px;justify-content: end;background-color: var(--secondary-color);border-radius: 8px;padding: 10px;z-index: 99;gap: 10px;margin-top: 68px;position: fixed;top: 0">
-    <a onclick="click_on_list_item()" href="#home" style="color: #d1e7dd;margin-top: -40px">Home</a>
-    <a onclick="click_on_list_item()" href="#project" style="color: #d1e7dd">projects</a>
-    <a onclick="click_on_list_item()" href="#ab" style="color: #d1e7dd">about</a>
-    <a onclick="click_on_list_item()" href="#footer-logo" style="color: #d1e7dd">Contact Me</a>
+    <div id="burger-list" class="shadow-lg"
+        style="width: 100%;display: none;flex-direction: column;height: 160px;justify-content: end;background-color: var(--secondary-color);border-radius: 8px;padding: 10px;z-index: 99;gap: 10px;margin-top: 68px;position: fixed;top: 0">
+        <a onclick="click_on_list_item()" href="#home" style="color: #d1e7dd;margin-top: -40px">Home</a>
+        <a onclick="click_on_list_item()" href="#project" style="color: #d1e7dd">projects</a>
+        <a onclick="click_on_list_item()" href="#ab" style="color: #d1e7dd">about</a>
+        <a onclick="click_on_list_item()" href="#footer-logo" style="color: #d1e7dd">Contact Me</a>
 
-</div>
-
-<header class="shadow">
-    <button class="border-0 bg-transparent" style="width: 30px;display: none" onclick="click_nav()">  <i style="color: var(--primary-color)" class="fa-solid fa-ellipsis-vertical d-inline-block"></i></button>
-
-    <div>
-
-        <h1 style="font-weight: 700 ;color: var(--primary-color)">PRABODHA</h1>
-
-        <ul class="header-bar">
-            <a href="#home">
-                <li>Home</li>
-            </a>
-            <a href="#project">
-                <li>projects</li>
-            </a>
-            <a href="#ab">
-                <li>about</li>
-            </a>
-            <a href="#footer-logo">
-                <li>Contact Me</li>
-            </a>
-        </ul>
     </div>
 
+    <header class="shadow">
+        <button class="border-0 bg-transparent" style="width: 30px;display: none" onclick="click_nav()"> <i
+                style="color: var(--primary-color)" class="fa-solid fa-ellipsis-vertical d-inline-block"></i></button>
 
-</header>
+        <div>
 
-<main>
-    <section class="d-flex flex-column flex-wrap" id="home">
-        <div class="d-flex flex-row justify-content-center align-items-center">
-            <div>
-                <h1>I'M</h1>
-                <h1>PRABODHA</h1>
-                <h1 style="font-weight: 700;">THATHSARANI</h1>
-                <hr class="w-50 rounded-5" style="border-width: 5px;border-color: var(--primary-color) ;opacity: 100">
-                <h9 style="font-weight: 600;font-size: 25px"> UI/UX Designer</h9>
-                <p style="font-weight: 200">
-                    Welcome to my Portpolio website. </br> Let's build quality product in </br> programming and design
-                    with my </br> services.
-                </p>
+            <h1 style="font-weight: 700 ;color: var(--primary-color)">PRABODHA</h1>
 
-                <a href="https://drive.usercontent.google.com/u/0/uc?id=1Ex_yZrBuF2PTEsLUYjPmKvlNB2Ta7R82&export=download" style="text-decoration: none;">
-                    <button class="d-flex flex-row button-download gap-2 align-items-center"
-                            style="width: fit-content;"><span
-                            style="font-size: 20px ;color: var(--secondary-color);font-weight: 800">Download CV
-                                </span> <img
-                            src="assest/image/icons8-download-52%20(1).png" width="20">
-                    </button>
+            <ul class="header-bar">
+                <a href="#home">
+                    <li>Home</li>
                 </a>
-            </div>
-            <div>
-                <img alt="" class="img1" src="assest/image/profile image.png">
-            </div>
-            <div class="d-flex flex-wrap gap-1 flex-column" id="service-home">
-                <h1 style="font-weight:600">service</h1>
-                <p>
-                    Let's build quality product in </br> programming and design with my </br> services.
-                </p>
-                <span style="color: var(--primary-color);font-weight: 400;font-size: 13px">SHOW MORE > </span>
-                <div class="d-flex gap-3">
-                    <a href="https://web.facebook.com/ganga.chandani.754/" target="_blank"> <img alt=""
-                                                                             src="assest/image/facebook-1.png"
-                                                                             width="20px"></a>
-                    <a href="https://www.instagram.com/__t_a_t_h__/" target="_blank"> <img alt=""
-                                                                              src="assest/image/instagram-1.png"
-                                                                              width="20px"></a>
-                    <a href="https://www.linkedin.com/in/tathsarani-liyanage-68781a284/" target="_blank"> <img alt=""
-                                                                             src="assest/image/linkedin-1.png"
-                                                                             width="20px"></a>
-                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"> <img alt="" src="assest/image/gmail-1.png"
-                                                                          width="20px"></a>
-
-                </div>
-                <img alt="" src="assest/image/Frame%207.png" width="100">
-            </div>
+                <a href="#project">
+                    <li>projects</li>
+                </a>
+                <a href="#ab">
+                    <li>about</li>
+                </a>
+                <a href="#footer-logo">
+                    <li>Contact Me</li>
+                </a>
+            </ul>
         </div>
-        <section class="w-100 d-flex justify-content-center">
-            <div class="d-flex gap-5 p-4 rounded-3 w" id="box"
-                 style="background-color: var(--secondary-color-light);width: fit-content">
-                <div class="d-flex gap-1 flex-wrap p-2 flex-row align-items-center justify-content-center  rounded-3"
-                     style="background-color: var(--secondary-color-dark)">
-                    <!-- <img style="width: 20px; height: 20px;" src="/assets/slack.png" alt=""> -->
-                    <a href="https://www.slack.com" target="_blank"> <img alt="" height="30px"
-                                                                          src="assest/image/slack.png" width="30px"></a>
-                    <h6 class="mb-0" style="color: var(--primary-color);font-weight: 600">Slack</h6>
+
+
+    </header>
+
+    <main>
+        <section class="d-flex flex-column flex-wrap" id="home">
+            <div class="d-flex flex-row justify-content-center align-items-center">
+                <div>
+                    <h1>I'M</h1>
+                    <h1>PRABODHA</h1>
+                    <h1 style="font-weight: 700;">THATHSARANI</h1>
+                    <hr class="w-50 rounded-5"
+                        style="border-width: 5px;border-color: var(--primary-color) ;opacity: 100">
+                    <h9 style="font-weight: 600;font-size: 25px"> Full Stack Developer </h9>
+                    <p style="font-weight: 200">
+                        Welcome to my Portpolio website. </br> Let's build quality product in </br> programming and
+                        design
+                        with my </br> services.
+                    </p>
+
+                    <a href="https://drive.usercontent.google.com/u/0/uc?id=1Ex_yZrBuF2PTEsLUYjPmKvlNB2Ta7R82&export=download"
+                        style="text-decoration: none;">
+                        <button class="d-flex flex-row button-download gap-2 align-items-center"
+                            style="width: fit-content;"><span
+                                style="font-size: 20px ;color: var(--secondary-color);font-weight: 800">Download CV
+                            </span> <img src="assest/image/icons8-download-52%20(1).png" width="20">
+                        </button>
+                    </a>
                 </div>
-                <div class="d-flex gap-1 flex-wrap p-2 align-items-center justify-content-center  rounded-3"
-                     style="background-color: var(--secondary-color-dark)">
-                    <!-- <img style="width: 20px; height: 20px;" src="/assets/github.png" alt=""> -->
-                    <a href="https://github.com/tathsaraniliyanage" target="_blank"> <img alt="" height="30px"
-                                                                           src="assest/image/github.png"
-                                                                           width="30px"></a>
-                    <h6 class="mb-0" style="color: var(--primary-color);font-weight: 600">GitHub</h6>
+                <div>
+                    <img alt="" class="img1" src="assest/image/profile image.png">
                 </div>
-                <div class="d-flex gap-1 flex-wrap p-2 flex-row align-items-center justify-content-center  rounded-3"
-                     style="background-color: var(--secondary-color-dark)">
-                    <!-- <img style="width: 20px; height: 20px;" src="/assets/linkedin-2.png" alt=""> -->
-                    <a href="https://www.linkedin.com/in/tathsarani-liyanage-68781a284/" target="_blank"> <img alt="" height="30px"
-                                                                             src="assest/image/linkedin icon.png"
-                                                                             width="30px"></a>
-                    <h6 class="mb-0" style="color: var(--primary-color);font-weight: 600">Linkedin</h6>
+                <div class="d-flex flex-wrap gap-1 flex-column" id="service-home">
+                    <h1 style="font-weight:600">service</h1>
+                    <p>
+                        Let's build quality product in </br> programming and design with my </br> services.
+                    </p>
+                    <span style="color: var(--primary-color);font-weight: 400;font-size: 13px">SHOW MORE > </span>
+                    <div class="d-flex gap-3">
+                        <a href="https://web.facebook.com/ganga.chandani.754/" target="_blank"> <img alt=""
+                                src="assest/image/facebook-1.png" width="20px"></a>
+                        <a href="https://www.instagram.com/__t_a_t_h__/" target="_blank"> <img alt=""
+                                src="assest/image/instagram-1.png" width="20px"></a>
+                        <a href="https://www.linkedin.com/in/tathsarani-liyanage-68781a284/" target="_blank"> <img
+                                alt="" src="assest/image/linkedin-1.png" width="20px"></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"> <img alt=""
+                                src="assest/image/gmail-1.png" width="20px"></a>
+
+                    </div>
+                    <img alt="" src="assest/image/Frame%207.png" width="100">
+                </div>
+            </div>
+            <section class="w-100 d-flex justify-content-center">
+                <div class="d-flex gap-5 p-4 rounded-3 w" id="box"
+                    style="background-color: var(--secondary-color-light);width: fit-content">
+                    <div class="d-flex gap-1 flex-wrap p-2 flex-row align-items-center justify-content-center  rounded-3"
+                        style="background-color: var(--secondary-color-dark)">
+                        <!-- <img style="width: 20px; height: 20px;" src="/assets/slack.png" alt=""> -->
+                        <a href="https://www.slack.com" target="_blank"> <img alt="" height="30px"
+                                src="assest/image/slack.png" width="30px"></a>
+                        <h6 class="mb-0" style="color: var(--primary-color);font-weight: 600">Slack</h6>
+                    </div>
+                    <div class="d-flex gap-1 flex-wrap p-2 align-items-center justify-content-center  rounded-3"
+                        style="background-color: var(--secondary-color-dark)">
+                        <!-- <img style="width: 20px; height: 20px;" src="/assets/github.png" alt=""> -->
+                        <a href="https://github.com/tathsaraniliyanage" target="_blank"> <img alt="" height="30px"
+                                src="assest/image/github.png" width="30px"></a>
+                        <h6 class="mb-0" style="color: var(--primary-color);font-weight: 600">GitHub</h6>
+                    </div>
+                    <div class="d-flex gap-1 flex-wrap p-2 flex-row align-items-center justify-content-center  rounded-3"
+                        style="background-color: var(--secondary-color-dark)">
+                        <!-- <img style="width: 20px; height: 20px;" src="/assets/linkedin-2.png" alt=""> -->
+                        <a href="https://www.linkedin.com/in/tathsarani-liyanage-68781a284/" target="_blank"> <img
+                                alt="" height="30px" src="assest/image/linkedin icon.png" width="30px"></a>
+                        <h6 class="mb-0" style="color: var(--primary-color);font-weight: 600">Linkedin</h6>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        <section class="mb-4 container d-flex flex-row flex-wrap justify-content-center mt-5">
+            <div class="w-50 d-flex flex-column gap-4">
+                <h1 class="mt-5" style="color: var(--primary-color);font-weight: 700">
+                    What Can I Do For <br /> Your Needs
+                </h1>
+                <p style="margin-top: 10px; margin-right: 10px; color:#D3D3D3 ">
+                    <!-- I'm Prabodha Thathsarani , </br> -->
+                    I’m a passionate software engineer who believes in the transformative power of technology to empower
+                    people and solve real-world challenges. With a strong foundation in Java and ReactJS, I thrive at
+                    the intersection of robust back-end systems and dynamic, user-friendly front-end experiences.
+                    </br>
+                    </br>
+                    My journey in tech is driven by curiosity and a relentless desire to learn—whether it’s refining my
+                    expertise in modern frameworks, diving into new programming paradigms, or exploring emerging tools
+                    that push the boundaries of what’s possible. I’m particularly drawn to projects that prioritize
+                    scalability, performance, and inclusivity, ensuring technology serves as a bridge rather than a
+                    barrier.
+                </p>
+                <div class="d-flex flex-wrap flex-row gap-5">
+                    <div class="d-flex flex-column gap-0">
+                        <p class="mb-0" style="color: var(--primary-color);font-weight: 700 ;font-size: 50px">30+</p>
+                        <p style="color: var(--primary-color);font-weight: 400">Web projects</p>
+                    </div>
+                    <div class="box6">
+                        <p class="mb-0" style="color: var(--primary-color);font-weight: 700 ;font-size: 50px">5+</p>
+                        <p style="color: var(--primary-color);font-weight: 400">React projects</p>
+                    </div>
+                    <div class="box6">
+                        <p class="mb-0" style="color: var(--primary-color);font-weight: 700 ;font-size: 50px">7+</p>
+                        <p style="color: var(--primary-color);font-weight: 400">Java projects</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-5 flex-column align-items-center justify-content-center p-4">
+                <div class="p-3 rounded-3 d-flex gap-3 flex-column service-box"
+                    style="background-color: var(--secondary-color-light);width:320px">
+                    <h4>WEB Development </h4>
+                    <span style="font-size: 13px">You ca see my latest websites and web applications</span>
+                    <a href="https://github.com/tathsaraniliyanage?tab=repositories"> <span
+                            style="color: var(--primary-color);font-size: 13px; text-decoration: none;">
+                            < show more </span>
+                    </a>
+                    <div class="rounded-circle position-absolute shadow-lg d-flex flex-wrap p-2 justify-content-center align-items-center"
+                        style="height: 50px ;width: 50px;background-color: var(--secondary-color);margin-top: -40px ;margin-left: -40px">
+                        <img alt="" height="80%" src="assest/image/image%208.png">
+                    </div>
+                </div>
+                <div class="p-3 rounded-3 d-flex gap-3 flex-column service-box"
+                    style="background-color: var(--secondary-color-light);width:320px">
+                    <h4>React </h4>
+                    <span style="font-size: 13px">Now You can watch my react projects.</span>
+                    <!-- <span style="color: var(--primary-color);font-size: 13px">< show more </span> -->
+                    <a href="https://github.com/tathsaraniliyanage?tab=repositories"> <span
+                            style="color: var(--primary-color);font-size: 13px; text-decoration: none;">
+                            < show more </span>
+                    </a>
+                    <div class="rounded-circle position-absolute shadow-lg d-flex flex-wrap p-2 justify-content-center align-items-center"
+                        style="height: 50px ;width: 50px;background-color: var(--secondary-color);margin-top: -40px ;margin-left: -40px">
+                        <img alt="" height="80%" src="assest/image/image%208.png">
+                    </div>
+                </div>
+                <div class="p-3 rounded-3 d-flex gap-3 flex-column service-box"
+                    style="background-color: var(--secondary-color-light);width:320px">
+                    <h4>Java </h4>
+                    <span style="font-size: 13px">You can view my desktop java applications</span>
+                    <!-- <span style="color: var(--primary-color);font-size: 13px">< show more </span> -->
+                    <a href="https://github.com/tathsaraniliyanage?tab=repositories"> <span
+                            style="color: var(--primary-color);font-size: 13px; text-decoration: none;">
+                            < show more </span>
+                    </a>
+                    <div class="rounded-circle position-absolute shadow-lg d-flex flex-wrap p-2 justify-content-center align-items-center"
+                        style="height: 50px ;width: 50px;background-color: var(--secondary-color);margin-top: -40px ;margin-left: -40px">
+                        <img alt="" height="80%" src="assest/image/image%208.png">
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="container d-flex flex-wrap flex-row  align-items-center justify-content-center" id="ab">
+            <div
+                class="d-flex flex-wrap justify-content-center flex-column align-items-center position-relative col-lg-7 col-12">
+                <img alt="" src="assest/image/Ellipse%206.png" style="width: 60%">
+                <div class="z-1 position-absolute rounded-3 shadow d-flex justify-content-center align-items-center flex-wrap"
+                    style="background-color: var(--secondary-color) ;width: 25%;height: 60px;margin-left: -50%;margin-top: 0">
+                    <span style="font-weight: 600;font-size: 23px;color: var(--primary-color)"> July 28</span>
+                </div>
+                <img alt="" class="position-absolute mb-0" src="assest/image/dp%20p%202.png" style="width: 80%">
+                <div class="z-1 rounded-3 shadow d-flex justify-content-center align-items-center flex-wrap"
+                    style="background-color: var(--secondary-color) ;width: 45%;height: 60px;margin-right: 20px">
+                    <span style="font-weight: 600;font-size: 23px;color: var(--primary-color)">Full-Stack
+                        Developer</span>
+                </div>
 
-    </section>
-    <section class="container d-flex flex-row flex-wrap justify-content-center mt-5">
-        <div class="w-50 d-flex flex-column gap-4">
-            <h1 class="mt-5" style="color: var(--primary-color);font-weight: 700">
-                What Can I Do For <br/> Your Needs
-            </h1>
-            <p style="margin-top: 10px;color:#D3D3D3 ">
-                <!-- I'm Prabodha Thathsarani , </br> -->
-                first year student & a front-end developer who crafts tollored . conversion-driven online
-                experiences.
-                I behind creativity and technology to make your vision a digital reality.
-                I'm a software engineer passionate about using technology to empower people. I like to work with Java
-                and ReactJS, but I'm always looking for new technologies to explore
-            </p>
-            <div class="d-flex flex-wrap flex-row gap-5">
-                <div class="d-flex flex-column gap-0">
-                    <p class="mb-0" style="color: var(--primary-color);font-weight: 700 ;font-size: 50px">30+</p>
-                    <p style="color: var(--primary-color);font-weight: 400">Web projects</p>
-                </div>
-                <div class="box6">
-                    <p class="mb-0" style="color: var(--primary-color);font-weight: 700 ;font-size: 50px">5+</p>
-                    <p style="color: var(--primary-color);font-weight: 400">React projects</p>
-                </div>
-                <div class="box6">
-                    <p class="mb-0" style="color: var(--primary-color);font-weight: 700 ;font-size: 50px">7+</p>
-                    <p style="color: var(--primary-color);font-weight: 400">Java projects</p>
-                </div>
             </div>
-        </div>
-        <div class="d-flex gap-5 flex-column align-items-center justify-content-center p-4">
-            <div class="p-3 rounded-3 d-flex gap-3 flex-column service-box"
-                 style="background-color: var(--secondary-color-light);width:320px">
-                <h4>WEB Development </h4>
-                <span style="font-size: 13px">You ca see my latest websites and web applications</span>
-                <a href="https://github.com/tathsaraniliyanage?tab=repositories"> <span
-                        style="color: var(--primary-color);font-size: 13px; text-decoration: none;">< show more </span>
-                </a>
-                <div class="rounded-circle position-absolute shadow-lg d-flex flex-wrap p-2 justify-content-center align-items-center"
-                     style="height: 50px ;width: 50px;background-color: var(--secondary-color);margin-top: -40px ;margin-left: -40px">
-                    <img alt="" height="80%" src="assest/image/image%208.png">
-                </div>
-            </div>
-            <div class="p-3 rounded-3 d-flex gap-3 flex-column service-box"
-                 style="background-color: var(--secondary-color-light);width:320px">
-                <h4>React </h4>
-                <span style="font-size: 13px">Now You can watch my react projects.</span>
-                <!-- <span style="color: var(--primary-color);font-size: 13px">< show more </span> -->
-                <a href="https://github.com/tathsaraniliyanage?tab=repositories"> <span
-                        style="color: var(--primary-color);font-size: 13px; text-decoration: none;">< show more </span>
-                </a>
-                <div class="rounded-circle position-absolute shadow-lg d-flex flex-wrap p-2 justify-content-center align-items-center"
-                     style="height: 50px ;width: 50px;background-color: var(--secondary-color);margin-top: -40px ;margin-left: -40px">
-                    <img alt="" height="80%" src="assest/image/image%208.png">
-                </div>
-            </div>
-            <div class="p-3 rounded-3 d-flex gap-3 flex-column service-box"
-                 style="background-color: var(--secondary-color-light);width:320px">
-                <h4>Java </h4>
-                <span style="font-size: 13px">You can view my desktop java applications</span>
-                <!-- <span style="color: var(--primary-color);font-size: 13px">< show more </span> -->
-                <a href="https://github.com/tathsaraniliyanage?tab=repositories"> <span
-                        style="color: var(--primary-color);font-size: 13px; text-decoration: none;">< show more </span>
-                </a>
-                <div class="rounded-circle position-absolute shadow-lg d-flex flex-wrap p-2 justify-content-center align-items-center"
-                     style="height: 50px ;width: 50px;background-color: var(--secondary-color);margin-top: -40px ;margin-left: -40px">
-                    <img alt="" height="80%" src="assest/image/image%208.png">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="container d-flex flex-wrap flex-row  align-items-center justify-content-center" id="ab">
-        <div class="d-flex flex-wrap justify-content-center flex-column align-items-center position-relative col-lg-7 col-12">
-            <img alt="" src="assest/image/Ellipse%206.png" style="width: 60%">
-            <div class="z-1 position-absolute rounded-3 shadow d-flex justify-content-center align-items-center flex-wrap"
-                 style="background-color: var(--secondary-color) ;width: 25%;height: 60px;margin-left: -50%;margin-top: 0">
-                <span style="font-weight: 600;font-size: 23px;color: var(--primary-color)"> July 28</span>
-            </div>
-            <img alt="" class="position-absolute mb-0" src="assest/image/dp%20p%202.png" style="width: 80%">
-            <div class="z-1 rounded-3 shadow d-flex justify-content-center align-items-center flex-wrap"
-                 style="background-color: var(--secondary-color) ;width: 45%;height: 60px;margin-right: 20px">
-                <span style="font-weight: 600;font-size: 23px;color: var(--primary-color)"> UI - UX Designer</span>
-            </div>
+            <div class="col-lg-5 d-flex flex-wrap flex-column gap-3">
+                <span class="d-block" style="font-weight: 500;font-size: 30px">I'm</span>
+                <span style="font-weight: 600;font-size: 40px">Praodha Thathsarani</span>
+                <p style="color: #D3D3D3;font-weight: 300">
+                    I'm a software engineer passionate about using technology to
+                    empower people.
+                    <!-- A full-stack developer who develops software,
+                    conversion-driven experiences. I behind creativity and technology to make your vision a digital
+                    reality. I'm a
+                    software engineer passionate about using technology to empower people. I like to work with Java and
+                    ReactJS, but I'm always looking for new technologies to explore -->
 
-        </div>
-        <div class="col-lg-5 d-flex flex-wrap flex-column gap-3">
-            <span class="d-block" style="font-weight: 500;font-size: 30px">I'm</span>
-            <span style="font-weight: 600;font-size: 40px">Praodha Thathsarani</span>
-            <p style="color: #D3D3D3;font-weight: 300">a front-end developer who crafts tollored . conversion-driven
-                online experiences. I behind creativity and technology to make your vision a digital reality. I'm a
-                software engineer passionate about using technology to empower people. I like to work with Java and
-                ReactJS, but I'm always looking for new technologies to explore</p>
-            <a href="https://drive.usercontent.google.com/u/0/uc?id=1Ex_yZrBuF2PTEsLUYjPmKvlNB2Ta7R82&export=download" style="text-decoration: none;">
-                <button class="d-flex flex-row button-download gap-2 align-items-center"
-                        style="width: fit-content;"><span
-                        style="font-size: 20px ;color: var(--secondary-color);font-weight: 800">Download CV
-                    </span> <img
-                        src="assest/image/icons8-download-52%20(1).png" width="20">
-                </button>
-            </a>
+                    Beyond coding, I love collaborating with diverse teams to turn ideas into impactful solutions.
+                    Whether architecting APIs, crafting responsive UIs, or optimizing workflows, I aim to write clean,
+                    maintainable code that stands the test of time.
 
-        </div>
-    </section>
-    <section class="container position-relative" id="project">
-        <div class="w-50 d-flex flex-column gap-4 w-100">
-            <h1 class="mt-5" style="color: var(--primary-color);font-weight: 700">
-                Project
-            </h1>
-            <div class="d-flex flex-wrap flex-row w-100">
-                <p class="w-50" style="margin-top: 10px;color:#D3D3D3 ">
-                    This is my project section. It contains a lot of react, web, and java projects. From this you can
-                    detech the way I work.
                 </p>
-                <div class="d-flex flex-row gap-5">
-                    <div class="d-flex flex-column gap-0">
-                        <p class="mb-0" style="color: var(--primary-color);font-weight: 700 ;font-size: 50px">10+</p>
-                        <p style="color: var(--primary-color);font-weight: 400">Ongoing project</p>
-                    </div>
-                    <div class="box6">
-                        <p class="mb-0" style="color: var(--primary-color);font-weight: 700 ;font-size: 50px">40+</p>
-                        <p style="color: var(--primary-color);font-weight: 400">Completed project</p>
+                <a href="https://drive.usercontent.google.com/u/0/uc?id=1Ex_yZrBuF2PTEsLUYjPmKvlNB2Ta7R82&export=download"
+                    style="text-decoration: none;">
+                    <button class="d-flex flex-row button-download gap-2 align-items-center"
+                        style="width: fit-content;"><span
+                            style="font-size: 20px ;color: var(--secondary-color);font-weight: 800">Download CV
+                        </span> <img src="assest/image/icons8-download-52%20(1).png" width="20">
+                    </button>
+                </a>
+
+            </div>
+        </section>
+        <section class="container position-relative" id="project">
+            <div class="w-50 d-flex flex-column gap-4 w-100">
+                <h1 class="mt-5" style="color: var(--primary-color);font-weight: 700">
+                    Project
+                </h1>
+                <div class="d-flex flex-wrap flex-row w-100">
+                    <p class="w-50" style="margin-top: 10px;color:#D3D3D3 ">
+                        This is my project section. It contains a lot of react, web, and java projects. From this you
+                        can
+                        detech the way I work.
+                    </p>
+                    <div class="d-flex flex-row gap-5">
+                        <div class="d-flex flex-column gap-0">
+                            <p class="mb-0" style="color: var(--primary-color);font-weight: 700 ;font-size: 50px">10+
+                            </p>
+                            <p style="color: var(--primary-color);font-weight: 400">Ongoing project</p>
+                        </div>
+                        <div class="box6">
+                            <p class="mb-0" style="color: var(--primary-color);font-weight: 700 ;font-size: 50px">40+
+                            </p>
+                            <p style="color: var(--primary-color);font-weight: 400">Completed project</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="d-flex flex-wrap justify-content-start align-items-center gap-3">
-                <button class="border-0 rounded-circle" id="show-project-btn"
-                        onclick="showProject()"
+                <div class="d-flex flex-wrap justify-content-start align-items-center gap-3">
+                    <button class="border-0 rounded-circle" id="show-project-btn" onclick="showProject()"
                         style="width: 44px;height: 44px;background-color:var(--primary-color)">
-                    <i class="fa-solid fa-chevron-down" id="project-btn-icon"
-                       style="font-size: 25px;font-weight: bold"></i>
-                </button>
-                <span id="project-show-text">Show project</span>
+                        <i class="fa-solid fa-chevron-down" id="project-btn-icon"
+                            style="font-size: 25px;font-weight: bold"></i>
+                    </button>
+                    <span id="project-show-text">Show project</span>
+                </div>
+                <div class="flex-wrap justify-content-start" id="projects" style="display: none">
+                    <div class="ag-courses_item" id="project1">
+                        <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/Portpolio.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Portpolio
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project2">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/News-LK-Mobile.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                News LK Mobile
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project3">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Tech-Blog-LK.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Tech Blog LK
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project4">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Web-POS-System.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Web Pos System
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project5">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Happy-Burger-Website--React.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Happy Burger
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project6">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/green-shadow.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Green Shadow
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project7">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Hotel-Blue-Berry.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Hotel Blueberry
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project8">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Layard-Architecture-Lavish-Styloo.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Lavish - Layered
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project9">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/CoffeeCafe-Website.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Coffee Cafe
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project10">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/food-recipe.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Food Receipe
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project11">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Cake-By-Sudu.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Cake By Sudu
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project12">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Minchi-Restaurant.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Minchi Restaurant
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project3">
+                        <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/Pizza-Hut.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Pizza Hut
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project5">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/My-Calculator.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                js Calculator
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="ag-courses_item" id="project6">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Camping-Website.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Camping Website
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project7">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Shoemart-Website.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Shoemart
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project9">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Chair-Store-Tailwind-CSS.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Chair Store
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project8">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/Lavish-Styloo.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Lavish Styloo
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project9">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage/ORM-Book-Worm.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                Book Worm
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project10">
+                        <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/Chat-app.git">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                chat app
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ag-courses_item" id="project9">
+                        <a class="ag-courses-item_link card"
+                            href="https://github.com/tathsaraniliyanage?tab=repositories">
+                            <div class="ag-courses-item_bg"></div>
+
+                            <div class="ag-courses-item_title">
+                                More
+                            </div>
+
+                            <div class="ag-courses-item_date-box">
+                                View On GitHub >
+                                <span class="ag-courses-item_date">
+                                    <i class="fa-brands fa-github"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
             </div>
-            <div class="flex-wrap justify-content-start" id="projects" style="display: none">
-                <div class="ag-courses_item" id="project1">
-                    <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/food-recipe.git">
-                        <div class="ag-courses-item_bg"></div>
+        </section>
+    </main>
 
-                        <div class="ag-courses-item_title">
-                            Food Receipe
-                        </div>
-
-                        <div class="ag-courses-item_date-box">
-                            View On GitHub >
-                            <span class="ag-courses-item_date">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="ag-courses_item" id="project2">
-                    <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/Portpolio.git">
-                        <div class="ag-courses-item_bg"></div>
-
-                        <div class="ag-courses-item_title">
-                            Portpolio
-                        </div>
-
-                        <div class="ag-courses-item_date-box">
-                            View On GitHub >
-                            <span class="ag-courses-item_date">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="ag-courses_item" id="project3">
-                    <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/Hotel-Blue-Berry.git">
-                        <div class="ag-courses-item_bg"></div>
-
-                        <div class="ag-courses-item_title">
-                            Hotel Blueberry
-                        </div>
-
-                        <div class="ag-courses-item_date-box">
-                            View On GitHub >
-                            <span class="ag-courses-item_date">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="ag-courses_item" id="project4">
-                    <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/Cake-By-Sudu.git">
-                        <div class="ag-courses-item_bg"></div>
-
-                        <div class="ag-courses-item_title">
-                            Cake By Sudu
-                        </div>
-
-                        <div class="ag-courses-item_date-box">
-                            View On GitHub >
-                            <span class="ag-courses-item_date">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="ag-courses_item" id="project5">
-                    <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/My-Calculator.git">
-                        <div class="ag-courses-item_bg"></div>
-
-                        <div class="ag-courses-item_title">
-                            js Calculator
-                        </div>
-
-                        <div class="ag-courses-item_date-box">
-                            View On GitHub >
-                            <span class="ag-courses-item_date">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                        </div>
-                    </a>
-                </div>
-
-                <div class="ag-courses_item" id="project6">
-                    <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/Camping-Website.git">
-                        <div class="ag-courses-item_bg"></div>
-
-                        <div class="ag-courses-item_title">
-                            Camping Website
-                        </div>
-
-                        <div class="ag-courses-item_date-box">
-                            View On GitHub >
-                            <span class="ag-courses-item_date">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="ag-courses_item" id="project7">
-                    <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/Shoemart-Website.git">
-                        <div class="ag-courses-item_bg"></div>
-
-                        <div class="ag-courses-item_title">
-                            Shoemart
-                        </div>
-
-                        <div class="ag-courses-item_date-box">
-                            View On GitHub >
-                            <span class="ag-courses-item_date">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="ag-courses_item" id="project8">
-                    <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/Lavish-Styloo.git">
-                        <div class="ag-courses-item_bg"></div>
-
-                        <div class="ag-courses-item_title">
-                            Lavish Styloo
-                        </div>
-
-                        <div class="ag-courses-item_date-box">
-                            View On GitHub >
-                            <span class="ag-courses-item_date">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="ag-courses_item" id="project9">
-                    <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/ORM-Book-Worm.git">
-                        <div class="ag-courses-item_bg"></div>
-
-                        <div class="ag-courses-item_title">
-                            Book Worm
-                        </div>
-
-                        <div class="ag-courses-item_date-box">
-                            View On GitHub >
-                            <span class="ag-courses-item_date">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                        </div>
-                    </a>
-                </div>
-                <div class="ag-courses_item" id="project10">
-                    <a class="ag-courses-item_link card" href="https://github.com/tathsaraniliyanage/Chat-app.git">
-                        <div class="ag-courses-item_bg"></div>
-
-                        <div class="ag-courses-item_title">
-                            chat app
-                        </div>
-
-                        <div class="ag-courses-item_date-box">
-                            View On GitHub >
-                            <span class="ag-courses-item_date">
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </section>
-</main>
-
-<footer class="d-flex flex-wrap flex-column justify-content-center align-items-center text-light footer mt-5"
+    <footer class="d-flex flex-wrap flex-column justify-content-center align-items-center text-light footer mt-5"
         style="background-color: var(--secondary-color)">
-    <div class="container d-flex flex-wrap flex-row justify-content-center" id="footer-content">
-        <div class="col-md-4 d-flex align-items-center  flex-wrap p-3" id="footer-logo">
-            <h1 style="font-weight: 700 ;color: var(--primary-color)">PRABODHA</h1>
-        </div>
-        <div id="footer-details-section" class="col-md-4 d-flex flex-wrap contact-info d-flex flex-column justify-content-between gap-4 p-1"
-             style="width: fit-content;">
-            <p class="d-flex justify-content-start align-items-center"><i class="fas fa-phone-alt m-2"
-                                                                          style="color: var(--primary-color);"></i>
-                +9477 066 4337</p>
-            <p class="d-flex justify-content-start align-items-center"><i class="fas fa-envelope m-2"
-                                                                          style="color: var(--primary-color);"></i>
-                prabodhathathsarani28@gmail.com</p>
-            <p class="d-flex justify-content-start align-items-center"><i class="fas fa-map-marker-alt m-2"
-                                                                          style="color: var(--primary-color);"></i>
-                Gintota, Galle,<br> Sri Lanka</p>
-        </div>
-        <div class="col-md-4 col-7 col-lg-7 social-icons d-flex flex-column justify-content-between align-items-start  flex-wrap gap-2 p-1" id="footer-content-social-media" style="width: fit-content;">
-            <div class="d-flex justify-content-center align-items-center">
-                <a class="shadow p-2 rounded-circle d-flex justify-content-center align-items-center flex-wrap  text-decoration-none" href="https://web.facebook.com/ganga.chandani.754/" style="background-color: var(--secondary-color);height: 50px;width: 50px">
-                    <i class="fab fa-facebook-f" style="color: var(--primary-color);"></i>
-                </a>
+        <div class="container d-flex flex-wrap flex-row justify-content-center" id="footer-content">
+            <div class="col-md-4 d-flex align-items-center  flex-wrap p-3" id="footer-logo">
+                <h1 style="font-weight: 700 ;color: var(--primary-color)">PRABODHA</h1>
             </div>
-            <div class="d-flex justify-content-center align-items-center">
-                <a class="shadow p-2 rounded-circle d-flex justify-content-center align-items-center flex-wrap  text-decoration-none"
-                   href="https://www.instagram.com/__t_a_t_h__/" style="background-color: var(--secondary-color);height: 50px;width: 50px">
-                    <i class="fab fa-instagram" style="color: var(--primary-color);"></i>
-                </a>
+            <div id="footer-details-section"
+                class="col-md-4 d-flex flex-wrap contact-info d-flex flex-column justify-content-between gap-4 p-1"
+                style="width: fit-content;">
+                <p class="d-flex justify-content-start align-items-center"><i class="fas fa-phone-alt m-2"
+                        style="color: var(--primary-color);"></i>
+                    +9477 066 4337</p>
+                <p class="d-flex justify-content-start align-items-center"><i class="fas fa-envelope m-2"
+                        style="color: var(--primary-color);"></i>
+                    prabodhathathsarani28@gmail.com</p>
+                <p class="d-flex justify-content-start align-items-center"><i class="fas fa-map-marker-alt m-2"
+                        style="color: var(--primary-color);"></i>
+                    Gintota, Galle,<br> Sri Lanka</p>
             </div>
-            <div class="d-flex justify-content-center align-items-center">
-                <a class="shadow p-2 rounded-circle d-flex justify-content-center align-items-center flex-wrap text-decoration-none"
-                   href="https://www.linkedin.com/in/tathsarani-liyanage-68781a284/" style="background-color: var(--secondary-color);height: 50px;width: 50px">
-                    <i class="fab fa-twitter" style="color: var(--primary-color);"></i>
-                </a>
-                <!-- <span>Tathsarani Liyanage</span> -->
+            <div class="col-md-4 col-7 col-lg-7 social-icons d-flex flex-column justify-content-between align-items-start  flex-wrap gap-2 p-1"
+                id="footer-content-social-media" style="width: fit-content;">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a class="shadow p-2 rounded-circle d-flex justify-content-center align-items-center flex-wrap  text-decoration-none"
+                        href="https://web.facebook.com/ganga.chandani.754/"
+                        style="background-color: var(--secondary-color);height: 50px;width: 50px">
+                        <i class="fab fa-facebook-f" style="color: var(--primary-color);"></i>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <a class="shadow p-2 rounded-circle d-flex justify-content-center align-items-center flex-wrap  text-decoration-none"
+                        href="https://www.instagram.com/__t_a_t_h__/"
+                        style="background-color: var(--secondary-color);height: 50px;width: 50px">
+                        <i class="fab fa-instagram" style="color: var(--primary-color);"></i>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <a class="shadow p-2 rounded-circle d-flex justify-content-center align-items-center flex-wrap text-decoration-none"
+                        href="https://www.linkedin.com/in/tathsarani-liyanage-68781a284/"
+                        style="background-color: var(--secondary-color);height: 50px;width: 50px">
+                        <i class="fab fa-twitter" style="color: var(--primary-color);"></i>
+                    </a>
+                    <!-- <span>Tathsarani Liyanage</span> -->
 
+                </div>
             </div>
+            <hr class="w-100">
+            <a href="https://portfolio-efcc8.web.app/" target="_blank">
+                <span>© All Rights Reserved 2024</span>
+            </a>
         </div>
-        <hr class="w-100">
-       <a href="https://portfolio-efcc8.web.app/" target="_blank">
-         <span>© All Rights Reserved 2024</span>
-       </a>
-    </div>
-</footer>
+    </footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="assest/js/jquery-3.7.1.min.js"></script>
-<script src="assest/js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assest/js/jquery-3.7.1.min.js"></script>
+    <script src="assest/js/index.js"></script>
 </body>
+
 </html>
