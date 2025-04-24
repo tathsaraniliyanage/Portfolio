@@ -90,3 +90,35 @@ const click_on_list_item = () => {
 
 
 
+
+
+
+// Initialize with designs visible by default
+let designsVisible = true;
+
+const toggleDesigns = () => {
+    if (designsVisible) {
+        // Hide designs
+        designsVisible = false;
+        $('#designs').css({ 'display': 'none' });
+        $('#design-btn-icon').removeClass('fa-chevron-up').addClass('fa-chevron-down');
+        $('#design-show-text').text("Show designs");
+    } else {
+        // Show designs
+        projectsVisible = true;
+        $('#designs').css({ 'display': 'flex' });
+        $('#design-btn-icon').removeClass('fa-chevron-down').addClass('fa-chevron-up');
+        $('#design-show-text').text("Hide designs");
+    }
+}
+
+
+$(document).ready(function () {
+    $('#designs').css({ 'display': 'flex' });
+});
+
+
+
+
+
+

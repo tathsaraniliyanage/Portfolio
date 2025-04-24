@@ -132,6 +132,10 @@ root {
     #project>div>h1:nth-child(1),#project>div>div:nth-child(2){
         padding: 10px;
     }
+
+    #design>div>h1:nth-child(1),#design>div>div:nth-child(2){
+        padding: 10px;
+    }
 }
 
 @media screen and (min-width: 768px) {
