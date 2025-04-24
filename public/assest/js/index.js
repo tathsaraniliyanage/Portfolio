@@ -122,3 +122,18 @@ $(document).ready(function () {
 
 
 
+const toggleDesignsForUIPage = () => {
+    if (designsVisible) {
+        // Hide designs
+        designsVisible = false;
+        $('#designle-ui').css({ 'display': 'none' });
+        $('#design-btn-icon-ui').removeClass('fa-chevron-up').addClass('fa-chevron-down');
+        $('#design-show-text-ui').text("Show designs");
+    } else {
+        // Show designs
+        designsVisible = true;
+        $('#designle-ui').css({ 'display': 'flex' });
+        $('#design-btn-icon-ui').removeClass('fa-chevron-down').addClass('fa-chevron-up');
+        $('#design-show-text-ui').text("Hide designs");
+    }
+}
